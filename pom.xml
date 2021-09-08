@@ -15,8 +15,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>${jdk.level}</source>
-					<target>${jdk.level}</target>
+					<source>11.0.12</source>
+					<target>11.0.12</target>
 				</configuration>
 			</plugin>
 			<!-- Below plug-in is used to execute tests -->
