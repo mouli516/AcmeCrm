@@ -5,8 +5,8 @@
   <version>1.2.1</version>
   
   <properties>
-		<jre.level>14</jre.level>
-		<jdk.level>14</jdk.level>
+		<jre.level>11.0.12</jre.level>
+		<jdk.level>11.0.12</jdk.level>
   </properties>
   	<build>
 		<plugins>
