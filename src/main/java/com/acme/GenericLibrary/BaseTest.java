@@ -3,6 +3,7 @@ package com.acme.GenericLibrary;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseTest implements IAutoconstant{
@@ -33,10 +34,10 @@ public class BaseTest implements IAutoconstant{
 		WebDriverCommonLib w = new WebDriverCommonLib();
 		w.verify(actualtitle, expectedtitle, "Login page ");
 	}
-//	@AfterClass
-//	public void closebrowser()
-//	{
-//		driver.close();
-//	}
+	@AfterClass
+	public void closebrowser()
+	{
+		driver.close();
+	}
 
 }

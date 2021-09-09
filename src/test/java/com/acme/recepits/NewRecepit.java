@@ -14,10 +14,13 @@ public class NewRecepit extends BaseTest {
 	{
 		LoginPage lp = new LoginPage();
 		FileLibrary flb = new FileLibrary();
-		lp.logintoapp(flb.getpropdata("username",PROP_PATH), flb.getpropdata("password", PROP_PATH));
+		System.out.println(flb.getpropdata("validusername", PROP_PATH));
+		System.out.println(flb.getpropdata("validusername", PROP_PATH));
+		lp.logintoapp(flb.getpropdata("validusername", PROP_PATH),flb.getpropdata("validpassword", PROP_PATH));
 		WebDriverCommonLib wlb = new WebDriverCommonLib();
-		wlb.verify(wlb.getpagetitle(), flb.getpropdata("hometitle", CHROME_KEY), "Home page");
+		wlb.verify(wlb.getpagetitle(), flb.getpropdata("hometitle", PROP_PATH), "Home page");
 		HomePage hp = new HomePage();
+		hp.scrooltorignt();
 		hp.clickoninvoices();
 	
 		 wlb.verify(wlb.getpagetitle(), flb.getpropdata("customviewpage", PROP_PATH),"Custom view page");

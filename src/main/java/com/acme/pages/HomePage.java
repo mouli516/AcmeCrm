@@ -9,7 +9,7 @@ public class HomePage {
 	
 	
 	@FindBy(xpath = "//a[text()='Leads']") private WebElement leadstab;
-	@FindBy(id = "Invoicestab") private WebElement invoicetab;
+	@FindBy(xpath = "//a[text()='Invoices']") private WebElement invoicetab;
 	@FindBy(id="scrollright") private WebElement scrollright;
 	@FindBy(xpath = "//a[text()='Purchase Orders']") private WebElement purchasetab;
 	@FindBy(xpath = "//a[text()='Potentials']") private WebElement potentialtab;

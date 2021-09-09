@@ -20,7 +20,7 @@ public class CreateNewLead extends BaseTest {
 		Thread.sleep(2000);
 		LoginPage lp = new LoginPage();
 		FileLibrary flib = new FileLibrary();
-		lp.logintoapp(flib.getpropdata("username", PROP_PATH),flib.getpropdata("password", PROP_PATH));
+		lp.logintoapp(flib.getpropdata("validusername", PROP_PATH),flib.getpropdata("validpassword", PROP_PATH));
 		WebDriverCommonLib wlb = new WebDriverCommonLib();
 		wlb.verify(wlb.getpagetitle(), flib.getpropdata("hometitle", PROP_PATH), "Home Title");
 		
