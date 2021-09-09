@@ -7,6 +7,7 @@
         <methods>
           <include name="createnewrecepit"/>
           <include name="openbrowser"/>
+          <include name="closebrowser"/>
         </methods>
       </class> <!-- com.acme.recepits.NewRecepit -->
     </classes>
