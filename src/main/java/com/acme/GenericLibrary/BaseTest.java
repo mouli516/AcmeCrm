@@ -1,5 +1,9 @@
 package com.acme.GenericLibrary;
 
+
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -27,7 +31,8 @@ public class BaseTest implements IAutoconstant{
 		driver.manage().window().maximize();
 		String url = fl.getpropdata("url", PROP_PATH);
 		driver.get(url);
-		//System.out.println(url);
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		String actualtitle = driver.getTitle();
 		String expectedtitle = fl.getpropdata("title", PROP_PATH);

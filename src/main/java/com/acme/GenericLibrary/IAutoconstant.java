@@ -8,6 +8,6 @@ public interface IAutoconstant {
 	String GECKO_KEY="webdriver.gecko.driver";
 	String GECKO_VALUE="D:\\Qspiders Project\\Automation\\Project files\\acme\\src\\main\\resources\\Drivers\\geckodriver.exe";
 	String PROP_PATH="D:\\Qspiders Project\\Automation\\Project files\\acme\\src\\test\\resources\\Data\\Acme.properties";
-	String EXECL_PATH="D:\\Qspiders Project\\Automation\\Project files\\acme\\src\\test\\resources\\Data\\acme.xlsx";
+	String EXECL_PATH="D:\\Qspiders Project\\Automation\\Project files\\acme\\src\\test\\resources\\acme.xlsx";
 
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.acme.recepits.NewRecepit">
+      <class name="com.acme.purcchaseorder.CreateNewPurchase">
         <methods>
-          <include name="createnewrecepit"/>
           <include name="openbrowser"/>
+          <include name="createnewpurchase"/>
           <include name="closebrowser"/>
         </methods>
-      </class> <!-- com.acme.recepits.NewRecepit -->
+      </class> <!-- com.acme.purcchaseorder.CreateNewPurchase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

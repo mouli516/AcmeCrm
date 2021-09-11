@@ -13,7 +13,7 @@ import com.acme.pages.LoginPage;
 @Listeners(com.acme.GenericLibrary.MyListeners.class)
 public class CreateNewLead extends BaseTest {
 	@Test
-	public  void createnewlead() throws Throwable
+	public void createnewlead() throws Throwable
 	{
 		BaseTest bt = new BaseTest();
 		bt.openbrowser();
@@ -34,10 +34,14 @@ public class CreateNewLead extends BaseTest {
 		 crt.createlead();
 		
 		
-		 
-		
+		}
+	
 		
 		
 	}
+	
+	
+	
+	
 
-}
+

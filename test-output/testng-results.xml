@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-09T13:37:56 IST" name="Default suite" finished-at="2021-09-09T13:38:15 IST" duration-ms="18741">
+  <suite started-at="2021-09-11T23:30:28 IST" name="Default suite" finished-at="2021-09-11T23:31:10 IST" duration-ms="42233">
     <groups>
     </groups>
-    <test started-at="2021-09-09T13:37:56 IST" name="Default test" finished-at="2021-09-09T13:38:15 IST" duration-ms="18741">
-      <class name="com.acme.recepits.NewRecepit">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.acme.recepits.NewRecepit@7526515b]" started-at="2021-09-09T13:37:56 IST" name="openbrowser" finished-at="2021-09-09T13:38:05 IST" duration-ms="8620" status="PASS">
+    <test started-at="2021-09-11T23:30:28 IST" name="Default test" finished-at="2021-09-11T23:31:10 IST" duration-ms="42233">
+      <class name="com.acme.purcchaseorder.CreateNewPurchase">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.acme.purcchaseorder.CreateNewPurchase@2dc54ad4]" started-at="2021-09-11T23:30:28 IST" name="openbrowser" finished-at="2021-09-11T23:30:33 IST" duration-ms="4851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="createnewrecepit()[pri:0, instance:com.acme.recepits.NewRecepit@7526515b]" started-at="2021-09-09T13:38:05 IST" name="createnewrecepit" finished-at="2021-09-09T13:38:14 IST" duration-ms="9923" status="PASS">
+        <test-method signature="createnewpurchase()[pri:0, instance:com.acme.purcchaseorder.CreateNewPurchase@2dc54ad4]" started-at="2021-09-11T23:30:33 IST" name="createnewpurchase" finished-at="2021-09-11T23:31:10 IST" duration-ms="37173" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createnewrecepit -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.acme.recepits.NewRecepit@7526515b]" started-at="2021-09-09T13:38:14 IST" name="closebrowser" finished-at="2021-09-09T13:38:15 IST" duration-ms="145" status="PASS">
+        </test-method> <!-- createnewpurchase -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.acme.purcchaseorder.CreateNewPurchase@2dc54ad4]" started-at="2021-09-11T23:31:10 IST" name="closebrowser" finished-at="2021-09-11T23:31:10 IST" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- com.acme.recepits.NewRecepit -->
+      </class> <!-- com.acme.purcchaseorder.CreateNewPurchase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
