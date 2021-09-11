@@ -24,6 +24,7 @@ public class CreateNewLead extends BaseTest {
 		WebDriverCommonLib wlb = new WebDriverCommonLib();
 		wlb.verify(wlb.getpagetitle(), flib.getpropdata("hometitle", PROP_PATH), "Home Title");
 		
+		
 		HomePage hp = new HomePage();
 		hp.clickonleads();
 		wlb.verify(wlb.getpagetitle(), flib.getpropdata("cViewtitle", PROP_PATH), "Customer view page");
